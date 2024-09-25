@@ -13,6 +13,10 @@ namespace POO_U2_P8
         {
             this.radio = radio;
         }
+        ~Circulo()
+        {
+            Console.WriteLine("\nSoy el destructor del circulo, byeee (╯°□°）╯︵ ⭕\n");
+        }
         public override float CalcularArea()
         {
             return float.Pi * (radio * radio);

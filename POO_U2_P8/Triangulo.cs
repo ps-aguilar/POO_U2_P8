@@ -21,6 +21,11 @@ namespace POO_U2_P8
             this.altura = altura;
         }
 
+        ~Triangulo()
+        {
+            Console.WriteLine("\nSoy el destructor del triángulo, byeee (╯°□°）╯︵ △\n");
+        }
+
         public override float CalcularArea()
         {
             return (_base * altura) / 2F; 

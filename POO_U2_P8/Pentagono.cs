@@ -12,5 +12,10 @@ namespace POO_U2_P8
         {
             numLados = 5;
         }
+
+        ~Pentagono()
+        {
+            Console.WriteLine("\nSoy el destructor del pentágono, byeee (╯°□°）╯︵ ⬟\n");
+        }
     }
 }

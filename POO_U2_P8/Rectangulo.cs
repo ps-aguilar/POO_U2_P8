@@ -15,6 +15,10 @@ namespace POO_U2_P8
             this._base = _base;
             this.altura = altura;
         }
+        ~Rectangulo()
+        {
+            Console.WriteLine("\nSoy el destructor del rectángulo, byeee (╯°□°）╯︵ ㅁ\n");
+        }
         public override float CalcularArea()
         {
             return _base * altura;

@@ -13,14 +13,9 @@ namespace POO_U2_P8
             numLados = 6;
         }
 
-        public override float CalcularArea()
+        ~Hexagono()
         {
-            return (CalcularPerimetro() * apotema) / 2;
-        }
-
-        public override float CalcularPerimetro()
-        {
-            return lado * numLados;
+            Console.WriteLine("\nSoy el destructor del hexágono, byeee (╯°□°）╯︵ ⬢\n");
         }
     }
 }
